@@ -9,41 +9,34 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://zones.arilyn.cc
-timezone:
+timezone: Europe/Warsaw
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Krzysztof Pieczka
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Security write-ups
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Security write-ups: incident analysis, web/AppSec and OSINT by Krzysztof Pieczka.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://krzysztofpieczka.github.io"
 
 github:
-  username: github_username # change to your GitHub username
-
-twitter:
-  username: twitter_username # change to your Twitter username
+  username: KrzysztofPieczka
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Krzysztof Pieczka
+  email: krzysztof.pieczka.mail@gmail.com
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://github.com/KrzysztofPieczka
+    - https://www.linkedin.com/in/krzysztofpieczka
 
 # Site Verification Settings
 webmaster_verifications:
@@ -137,7 +130,7 @@ comments:
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
-    lang: # optional, default to the value of `site.lang`
+    lang: en
     reactions_enabled: # optional, default to the value of `1`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
