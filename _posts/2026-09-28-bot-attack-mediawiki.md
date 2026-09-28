@@ -1,5 +1,5 @@
 ---
-title: "Bot attack on a self-hosted wiki - incident analysis and reconstruction"
+title: "Multi-stage mass bot attack on MediaWiki: incident analysis"
 date: 2026-09-28 12:00:00 +0200
 categories: [Incident Response]
 tags: [forensics, mediawiki, bot, cloudflare]

@@ -1,5 +1,5 @@
 ---
-title: "Atak bota na self-hostowaną wiki - analiza incydentu i rekonstrukcja"
+title: "Wieloetapowy masowy atak botów na MediaWiki: analiza incydentu"
 layout: page
 permalink: /pl/atak-bota-mediawiki/
 ---
