@@ -11,7 +11,7 @@ image:
 
 > 🇵🇱 **[Czytaj po polsku](/pl/audyt-mediawiki/)**
 
-Since August 2025 I've been running a self-hosted wiki on MediaWiki. I set it up myself on a VPS and today it gets around 300 users a day. I built it feeling my way, with AI: learning as I went and adding things whenever I needed them. In December 2025 I bolted on my own upload form in Python Flask, quickly and without thinking about security. Two days later the site got attacked, which I wrote up in a [separate post](/posts/mediawiki-bot-attack/).
+Since August 2025 I've been running a self-hosted wiki on MediaWiki. I set it up myself on a VPS and today it gets around 300 users a day. I built it feeling my way, with AI: learning as I went and adding things whenever I needed them. In December 2025 I bolted on my own upload form in Python Flask, quickly and without thinking about security. Two days later the site got attacked, which I wrote up in a [separate post](/posts/bot-attack-mediawiki/).
 
 In September 2026 I decided to migrate the wiki to another VPS, and I used the chance to properly go through the whole thing before moving it. Over the past year I've learned a lot about security and today I understand far more than when I set all this up. Before I moved anything, I went through everything and wrote down the mistakes that had been sitting in it the whole time.
 
