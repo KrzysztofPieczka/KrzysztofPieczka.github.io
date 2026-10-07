@@ -7,6 +7,7 @@ body { background: #13151b !important; }
 #sidebar {
   background: #171a21 !important;
   border-right: 1px solid #242832 !important;
+}
 .card, .post-preview, #post-list .card-wrapper .card,
 .card-wrapper .card {
   background: #1b1e26 !important;
@@ -24,3 +25,39 @@ body { background: #13151b !important; }
 #sidebar .nav-link.active span { color: #5cc8ff !important; }
 #sidebar .nav-link.active { border-color: #5cc8ff !important; }
 .post-tag:hover, .tag:hover, a.tag:hover { background: #5cc8ff !important; color: #13151b !important; border-color: #5cc8ff !important; }
+
+
+
+
+
+.copy-email .copy-tip {
+  position: absolute;
+  left: 50%;
+  bottom: 125%;
+  transform: translateX(-50%) translateY(4px);
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: #5cc8ff;
+  color: #13151b;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s, transform 0.15s;
+}
+
+.copy-email.copied .copy-tip {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.copy-email {
+  position: relative;
+  cursor: pointer;
+  font-weight: 600;
+  border-bottom: 1px dashed #4a90c2;
+}
+
+.copy-email:hover {
+  border-bottom-color: #5cc8ff;
+}
