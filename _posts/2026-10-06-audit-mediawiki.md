@@ -4,7 +4,6 @@ layout: post
 categories: [Security Audit]
 tags: [mediawiki, apache, cloudflare, web-security]
 description: "A white-box audit of my self-hosted MediaWiki before migration. How one directory listing exposed the app's source and a user database."
-last_modified_at: 2026-10-06 12:00:00 +0200
 image:
   path: /assets/img/audit/audit-thumb.png
   alt: "Security audit - directory listing"

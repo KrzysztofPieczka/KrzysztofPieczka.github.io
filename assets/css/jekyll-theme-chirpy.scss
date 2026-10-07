@@ -1,0 +1,30 @@
+---
+---
+
+@import "main";
+
+/* ================= TŁA ================= */
+body { background: #13151b !important; }
+#sidebar {
+  background: #171a21 !important;                    /* sidebar: subtelnie inny niż tło */
+  border-right: 1px solid #242832 !important;        /* delikatna linia oddziela go od treści */
+}
+.card, .post-preview, #post-list .card-wrapper .card,
+.card-wrapper .card {
+  background: #1b1e26 !important;                     /* karty: jaśniejsze, ale mniej niż poprzednio */
+  border: 1px solid #262b35 !important;
+}
+
+/* ================= TEKST ================= */
+:root, html[data-mode="dark"] {
+  --text-color:        #dde0e6 !important;
+  --text-muted-color:  #a8aeb9 !important;
+  --heading-color:     #f4f6fa !important;
+}
+.post-preview .post-content, .card .card-text, #post-list .card-text { color: #b9bfc9 !important; }
+
+/* ================= AKCENT ================= */
+.post-content a { color: #e8eaef !important; text-decoration: underline; text-decoration-color: #4a90c2; }
+#sidebar .nav-link.active span { color: #5cc8ff !important; }
+#sidebar .nav-link.active { border-color: #5cc8ff !important; }
+.post-tag:hover, .tag:hover, a.tag:hover { background: #5cc8ff !important; color: #13151b !important; border-color: #5cc8ff !important; }
